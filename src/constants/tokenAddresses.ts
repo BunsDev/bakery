@@ -1,0 +1,5 @@
+export const gdao = '0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f'
+export const gdaov2 = '0xb689ad1e6573e58f689779ee83d1decced947afd'
+export const gdaoAddress = '0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f'
+export const masterChefAddress = '0x164e60635C6596897a10B747689c3DcCBa6499E4'
+export const weth = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
