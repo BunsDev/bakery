@@ -434,20 +434,17 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🧁',
   },
-  /*{
+  {
     pid: 1,
     lpAddresses: {
-      4: '0xC40D16476380e4037e6b1A2594cAF6a6cc8Da967',
+      4: '0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f',
     },
     tokenAddresses: {
-      4: '0x514910771af9ca656af840dff83e8264ecf986ca',
+      4: '0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f',
     },
-    name: 'Lemon Marinegwei',
-    symbol: 'LINK-ETH LP',
-    tokenSymbol: 'LINK',
+    name: 'GOVDAO',
+    symbol: 'GDAO',
+    tokenSymbol: 'GDAO',
     icon: '🍋',
-  },*/
+  },
 ]
-
-
-
