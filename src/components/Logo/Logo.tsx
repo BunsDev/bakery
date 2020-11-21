@@ -6,7 +6,7 @@ import logo from '../../assets/img/cuplogo.png'
 const Logo: React.FC = () => {
   return (
     <StyledLogo to="/">
-      <img src={logo} height="72" style={{ marginTop: -4 }} />
+      <img src={logo} height="32" style={{ marginTop: -4 }} />
       <StyledText>
         GOVDAO Bakery
       </StyledText>
