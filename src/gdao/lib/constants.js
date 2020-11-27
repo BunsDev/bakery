@@ -434,7 +434,7 @@ export const supportedPools = [
     },
     name: 'GovCake',
     symbol: 'GDAO-ETH LP',
-    tokenSymbol: 'DAI',
+    tokenSymbol: 'GDAO',
     icon: '🧁',
   },
 ]
