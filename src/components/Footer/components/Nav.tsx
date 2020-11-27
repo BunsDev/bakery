@@ -12,15 +12,12 @@ const Nav: React.FC = () => {
       </StyledLink>
       <StyledLink
         target="_blank"
-        href="https://app.uniswap.org/#/swap"
+        href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x060dea069f4a0cf3f359152ec02f048ce9930686"
       >
         UniSwap
       </StyledLink>
       <StyledLink target="_blank" href="https://discord.gg/HtBxjTZDy6">
         Discord
-      </StyledLink>
-      <StyledLink target="_blank" href="https://github.com/cryptoUnico/">
-        Github
       </StyledLink>
       <StyledLink target="_blank" href="https://twitter.com/governor_dao">
         Twitter
