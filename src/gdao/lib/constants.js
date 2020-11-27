@@ -423,9 +423,10 @@ export const contractAddresses = {
 export const supportedPools = [
   {
     pid: 0,
-    rewardToken: {
+  /*  rewardToken: {
       4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
     },
+  */
     lpAddresses: {
       4: '0xb354b410071a12b5ccB28Bd3275A44C6Dc9DBC61', // GDAO-ETH LP Token Address
     },
