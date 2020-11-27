@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        👅<b> Extra Tasty</b>: GDAO-ETH LP token pool yields 3x more token rewards per block.
+        👅<b> Extra Tasty</b>: GDAO-ETH LP token pool yields 4x more token rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
       <div
