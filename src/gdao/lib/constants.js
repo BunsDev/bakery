@@ -409,7 +409,7 @@ export const contractAddresses = {
     4: '0x060dea069f4a0cf3f359152ec02f048ce9930686',
   },
   masterChef: {
-    4: '0xb3B23f8cb75251fc0a7504bae0bE5877a3C1F1AC',
+    4: '0xFC6eDF92D8168837551eD55ebbE093efD7CaB2bC',
   },
   weth: {
     4: '0xc778417e063141139fce010982780140aa0cd5ab',
@@ -423,10 +423,9 @@ export const contractAddresses = {
 export const supportedPools = [
   {
     pid: 0,
-  /*  rewardToken: {
+    rewardToken: {
       4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
     },
-  */
     lpAddresses: {
       4: '0xb354b410071a12b5ccB28Bd3275A44C6Dc9DBC61', // GDAO-ETH LP Token Address
     },
