@@ -406,10 +406,10 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   gdao: {
-    4: '0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f',
+    4: '0x060dea069f4a0cf3f359152ec02f048ce9930686',
   },
   masterChef: {
-    4: '0x164e60635C6596897a10B747689c3DcCBa6499E4',
+    4: '0xb3B23f8cb75251fc0a7504bae0bE5877a3C1F1AC',
   },
   weth: {
     4: '0xc778417e063141139fce010982780140aa0cd5ab',
@@ -423,28 +423,18 @@ export const contractAddresses = {
 export const supportedPools = [
   {
     pid: 0,
+    rewardToken: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
+    },
     lpAddresses: {
-      4: '0x03e6c12ef405ac3f642b9184eded8e1322de1a9e', // LP Token Address
+      4: '0xb354b410071a12b5ccB28Bd3275A44C6Dc9DBC61', // GDAO-ETH LP Token Address
     },
     tokenAddresses: {
-      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // Token, i.e. "DAI"
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO
     },
     name: 'GovCake',
-    symbol: 'DAI-ETH LP',
+    symbol: 'GDAO-ETH LP',
     tokenSymbol: 'DAI',
     icon: '🧁',
-  },
-  {
-    pid: 1,
-    lpAddresses: {
-      4: '0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f',
-    },
-    tokenAddresses: {
-      4: '0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f',
-    },
-    name: 'GOVDAO',
-    symbol: 'GDAO',
-    tokenSymbol: 'GDAO',
-    icon: '🍋',
   },
 ]
