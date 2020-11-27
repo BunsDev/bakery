@@ -6,12 +6,6 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink
         target="_blank"
-        href="https://rinkeby.etherscan.io/address/0xf56fb52086dcf3c2ca0a64b6f49e047b4427639f#code"
-      >
-        GDAO Token Contract
-      </StyledLink>
-      <StyledLink
-        target="_blank"
         href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x060dea069f4a0cf3f359152ec02f048ce9930686"
       >
         UniSwap
