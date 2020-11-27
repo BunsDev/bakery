@@ -82,7 +82,7 @@ const Farm: React.FC = () => {
         <Spacer size="md" />
         <StyledLink
           target="__blank"
-          href={`https://uniswap.vision/pair/${lpTokenAddress}`}
+          href={`https://uniswap.info/token/${tokenAddress}`}
         >
           {lpTokenName} Info
         </StyledLink>
