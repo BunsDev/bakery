@@ -27,7 +27,7 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle = "Stake your dough to bake some GDAO | ** 2% BAKER'S FEE **"
+                subtitle = "Stake your dough to bake some GDAO"
                 title = "Easy Bake Governance"
               />
               <FarmCards />
