@@ -437,4 +437,68 @@ export const supportedPools = [
     tokenSymbol: 'GDAO',
     icon: '🧁',
   },
+  {
+    pid: 1,
+    rewardToken: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
+    },
+    lpAddresses: {
+      4: '0xc778417e063141139fce010982780140aa0cd5ab', // WETH Token Address
+    },
+    tokenAddresses: {
+      4: '0xc778417e063141139fce010982780140aa0cd5ab', // WETH
+    },
+    name: 'WrappedYum',
+    symbol: 'WETH TOKEN',
+    tokenSymbol: 'WETH',
+    icon: '🍬',
+  },
+  {
+    pid: 2,
+    rewardToken: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
+    },
+    lpAddresses: {
+      4: '0x01be23585060835e02b77ef475b0cc51aa1e0709', // LINK Token Address
+    },
+    tokenAddresses: {
+      4: '0x01be23585060835e02b77ef475b0cc51aa1e0709', // LINK
+    },
+    name: 'Lemon Marinque',
+    symbol: 'LINK TOKEN',
+    tokenSymbol: 'LINK',
+    icon: '🍋',
+  },
+  {
+    pid: 3,
+    rewardToken: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
+    },
+    lpAddresses: {
+      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI Token Address
+    },
+    tokenAddresses: {
+      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI
+    },
+    name: 'BreadnButter',
+    symbol: 'DAI TOKEN',
+    tokenSymbol: 'DAI',
+    icon: '🍞',
+  },
+  {
+    pid: 4,
+    rewardToken: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
+    },
+    lpAddresses: {
+      4: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', // UNI Token Address
+    },
+    tokenAddresses: {
+      4: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', // UNI
+    },
+    name: 'YummyUni',
+    symbol: 'UNI TOKEN',
+    tokenSymbol: 'UNI',
+    icon: '🍩',
+  },
 ]
