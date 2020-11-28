@@ -80,7 +80,7 @@ const FarmCards: React.FC = () => {
         ))
       ) : (
         <StyledLoadingWrapper>
-          <Loader text="Cooking the rice ..." />
+          <Loader text="Baking the dough ..." />
         </StyledLoadingWrapper>
       )}
     </StyledCards>
@@ -130,7 +130,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
 
   return (
     <StyledCardWrapper>
-      {farm.tokenSymbol === 'DAI' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'GDAO' && <StyledCardAccent />}
       <Card>
         <CardContent>
           <StyledContent>
@@ -158,11 +158,12 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
               <span>
                 {farm.apy
                   ? `${farm.apy
-                      .times(new BigNumber(100))
+                      .times(new BigNumber(0)) // from 100
                       .times(new BigNumber(3))
                       .toNumber()
                       .toLocaleString('en-US')
-                      .slice(0, -1)}%`
+                      .slice(0, -1)}
+		      %`
                   : 'Loading ...'}
               </span>
               {/* <span>
