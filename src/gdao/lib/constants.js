@@ -443,6 +443,38 @@ export const supportedPools = [
       4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
     },
     lpAddresses: {
+      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI Token Address
+    },
+    tokenAddresses: {
+      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI
+    },
+    name: 'BreadnButter',
+    symbol: 'DAI TOKEN',
+    tokenSymbol: 'DAI',
+    icon: '🍞',
+  },
+  {
+    pid: 2,
+    rewardToken: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
+    },
+    lpAddresses: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO Token Address
+    },
+    tokenAddresses: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO
+    },
+    name: 'Napoleon',
+    symbol: 'GDAO TOKEN',
+    tokenSymbol: 'GDAO',
+    icon: '🍰',
+  },
+  {
+    pid: 3,
+    rewardToken: {
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
+    },
+    lpAddresses: {
       4: '0xc778417e063141139fce010982780140aa0cd5ab', // WETH Token Address
     },
     tokenAddresses: {
@@ -454,7 +486,7 @@ export const supportedPools = [
     icon: '🍬',
   },
   {
-    pid: 2,
+    pid: 4,
     rewardToken: {
       4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
     },
@@ -469,24 +501,9 @@ export const supportedPools = [
     tokenSymbol: 'LINK',
     icon: '🍋',
   },
+
   {
-    pid: 3,
-    rewardToken: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
-    },
-    lpAddresses: {
-      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI Token Address
-    },
-    tokenAddresses: {
-      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI
-    },
-    name: 'BreadnButter',
-    symbol: 'DAI TOKEN',
-    tokenSymbol: 'DAI',
-    icon: '🍞',
-  },
-  {
-    pid: 4,
+    pid: 5,
     rewardToken: {
       4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
     },
