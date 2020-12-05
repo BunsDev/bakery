@@ -1,5 +1,5 @@
 export const gdao = '0x060dea069f4a0cf3f359152ec02f048ce9930686'
 export const gdaov2 = '0xb354b410071a12b5ccb28bd3275a44c6dc9dbc61'
 export const gdaoAddress = '0x060dea069f4a0cf3f359152ec02f048ce9930686'
-export const masterChefAddress = '0x2Dbc42FFb60d854C3e7Eb267919900BB568E13CE'
+export const masterChefAddress = '0xf78784B860067a1261652751845d2473d264eb33'
 export const weth = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
