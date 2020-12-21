@@ -94,14 +94,11 @@ export const contractAddresses = {
 export const supportedPools = [
   {
     pid: 0,
-    /*rewardToken: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
-    },*/
     lpAddresses: {
       4: '0xb354b410071a12b5ccB28Bd3275A44C6Dc9DBC61', // GDAO-ETH LP Token Address
     },
     tokenAddresses: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO
+      4: '0xb354b410071a12b5ccB28Bd3275A44C6Dc9DBC61', // GDAO
     },
     name: 'GovCake',
     symbol: 'GDAO-ETH LP',
@@ -110,11 +107,8 @@ export const supportedPools = [
   },
   {
     pid: 1,
-    /*rewardToken: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
-    },*/
     lpAddresses: {
-      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI Token Address
+      4: '0x03E6c12eF405AC3F642B9184eDed8E1322de1a9e', // DAI-WETH Token Address
     },
     tokenAddresses: {
       4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI
@@ -126,11 +120,8 @@ export const supportedPools = [
   },
   {
     pid: 2,
-    /*rewardToken: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
-    },*/
     lpAddresses: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO Token Address
+      4: '0xb354b410071a12b5ccB28Bd3275A44C6Dc9DBC61', // GDAO-WETH Token Address
     },
     tokenAddresses: {
       4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO
@@ -142,9 +133,6 @@ export const supportedPools = [
   },
   {
     pid: 3,
-    /*rewardToken: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
-    },*/
     lpAddresses: {
       4: '0xc778417e063141139fce010982780140aa0cd5ab', // WETH Token Address
     },
@@ -158,11 +146,8 @@ export const supportedPools = [
   },
   {
     pid: 4,
-    /*rewardToken: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
-    },*/
     lpAddresses: {
-      4: '0x01be23585060835e02b77ef475b0cc51aa1e0709', // LINK Token Address
+      4: '0x0d1e5112B7Bf0595837f6e19A8233e8b918Ef3aA', // LINK-WETH Token Address
     },
     tokenAddresses: {
       4: '0x01be23585060835e02b77ef475b0cc51aa1e0709', // LINK
@@ -175,11 +160,8 @@ export const supportedPools = [
 
   {
     pid: 5,
-    /*rewardToken: {
-      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // Reward token (GDAO)
-    },*/
     lpAddresses: {
-      4: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', // UNI Token Address
+      4: '0x4E99615101cCBB83A462dC4DE2bc1362EF1365e5', // UNI-WETH Token Address
     },
     tokenAddresses: {
       4: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', // UNI
