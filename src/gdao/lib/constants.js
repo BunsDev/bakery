@@ -80,7 +80,7 @@ export const contractAddresses = {
     4: '0x060dea069f4a0cf3f359152ec02f048ce9930686',
   },
   masterChef: {
-    4: '0x3a6cfFAea224483657E9F483d174b365A27AAA78',//'0xdf2A82d8a34F139f649000e43f60C921F769a947',
+    4: '0xdf2A82d8a34F139f649000e43f60C921F769a947',
   },
   weth: {
     4: '0xc778417e063141139fce010982780140aa0cd5ab',
@@ -108,7 +108,7 @@ export const supportedPools = [
   {
     pid: 1,
     lpAddresses: {
-      4: '0x03E6c12eF405AC3F642B9184eDed8E1322de1a9e', // DAI-WETH Token Address
+      4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI-WETH Token Address
     },
     tokenAddresses: {
       4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // DAI
@@ -121,7 +121,7 @@ export const supportedPools = [
   {
     pid: 2,
     lpAddresses: {
-      4: '0xb354b410071a12b5ccB28Bd3275A44C6Dc9DBC61', // GDAO-WETH Token Address
+      4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO-WETH Token Address
     },
     tokenAddresses: {
       4: '0x060dea069f4a0cf3f359152ec02f048ce9930686', // GDAO
